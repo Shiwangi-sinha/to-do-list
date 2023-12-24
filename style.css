@@ -1,0 +1,54 @@
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: white;
+}
+#inputBox{
+    padding: 8px;
+    width: calc(100% -16px);
+}
+button{
+    padding: 6px 50px;
+    background: red;
+    border: 5px black;
+    color: green;
+}
+
+
+
+.display-5{
+    font-family: 'Kalnia', serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.btn-primary{
+    background-color : rgb(21, 174, 154);
+    color: solid black;
+}
+
+.bold{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+.container1 {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
